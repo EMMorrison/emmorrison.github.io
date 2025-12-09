@@ -1,0 +1,126 @@
+/* header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+body {
+    display: flex;
+}
+
+header a {
+    padding-left: 5rem;
+    font-size: 2rem;
+}
+
+p {
+    padding-top: 2vw;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridImg {
+    max-height: 15vh;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    float: left;
+    background-color: lightblue;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.sidebar a {
+    padding: 3.5rem 0rem 0rem 0rem;
+    font-size: 2rem;
+}
+
+.sidebar p {
+    font-size: 2vw;
+}
+
+.mainText {
+    padding-left: 5vw;
+    margin-top: 2rem;
+}
+
+.site {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+#TanitiImg {
+    min-width: 100%;
+    display: block;
+} */
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+header a {
+    padding-left: 5rem;
+    font-size: 2rem;
+}
+
+p {
+    padding-top: 2vw;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgb(125, 165, 201);
+}
+
+.gridImg {
+    max-height: 7vh;
+    max-width: 7vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: lightblue;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.sidebar a {
+    padding: 3.5rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+}
+
+.sidebar p {
+    font-size: 1.1rem;
+}
+
+.mainText {
+    padding-left: 5vw;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.site {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+#TanitiImg {
+    min-width: 100%;
+    display: block;
+}
+
