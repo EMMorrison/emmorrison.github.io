@@ -119,7 +119,7 @@ footer {
     grid-template-rows: auto 1fr;
 }
 
-#TanitiImg {
+.MainImg {
     min-width: 100%;
     display: block;
 }
